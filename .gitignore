@@ -4,3 +4,5 @@ music_addon
 bot_core
 test.py
 data/db/db_servers.json
+.gitignore
+.gitmodules
