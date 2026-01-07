@@ -1,6 +1,9 @@
 [submodule "bot-core"]
 	path = bot-core
-	url = https://github.com/keciaM/SimpleDiscordBot-WebhookManager.git
+	url = https://github.com/keciaM/bot-core.git
 [submodule "gtfs-addon"]
 	path = gtfs-addon
 	url = https://github.com/keciaM/pyrkowy-gtfs-rt.git
+[submodule "music_addon"]
+	path = music_addon
+	url = https://github.com/keciaM/music-addon.git

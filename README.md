@@ -6,41 +6,70 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 ![Status](https://img.shields.io/badge/Project-Modular-orange)
 
-EXTENCORD is a **modular, extensible Discord bot platform**, designed to be easily expanded through standalone or integrated add-ons. The goal of the project is to provide a efficient, clean, scalable foundation for Discord bots, enabling communities and developers to modify, add or remove features without modifying the core application.
+**EXTENCORD** is a modular and extensible Discord bot platform designed to be easily
+expanded using standalone or integrated add-ons.
+It allows features to be added, removed, or modified through independent modules,
+without requiring changes to the core application.
 
-This platform is ideal for basic users such as guilds or servers owners, but also for developers who want long-term maintainability, ease of adding new functions, and in the future plug-and-play feature system.
+The project focuses on **clean architecture**, **long-term maintainability**, and
+**developer-friendly extensibility**, making it suitable not only for developers,
+but also for users with little to no programming experience.
+
+Extencord is designed so that both advanced developers and casual users can easily
+enable, disable, or add their own features and add-ons without modifying the core
+of the bot.
 
 
 > [!WARNING]
-> This project is still developed and may have some bugs, contact me if you find one!
+> This project is still under active development.
+> Some features may not work as expected or may contain bugs.
+> If you encounter any issues, feel free to report them.
+
 
 ---
-## Table of Contents
-- [Features](###%F0%9F%93%8C-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Modules](#modules)
-- [Contributing](#contributing)
+
+## 📑 Table of Contents
+- [Features](#-features)
+- [Basic Requirements](#-basic-requirements)
+<!-- - [Usage](#-usage)
+- [Modules](#-modules)
+- [Contributing](#-contributing) -->
+
 ---
 
 ## 📌 Features
 
-✅ Modular add-on system — Easily extend the bot with additional modules.
+- **Modular add-on system**  
+  The bot is built around a modular system that allows features to be added, removed,
+  or replaced using standalone or integrated add-ons.
 
-✅ MongoDB database integration — Efficient and scalable database integration for managing bot data.
+- **MongoDB database support**  
+  Uses MongoDB for storing data in a reliable and scalable way.
 
-✅ Centralized event and command handling — Streamlined event management and commands for ease of use.
+- **Centralized command and event handling**  
+  All commands and events are managed in a single, consistent system,
+   keeping the codebase clean and organized.
 
-✅ Built-in add-ons:
+- **Built-in add-ons**
+  - **Music add-on** *(standalone)* — Enables music playback in voice channels using Lavalink.
+  - **GTFS add-on** *(integrated)* — Provides access to transport data and schedules.
 
-    Standalone add-ons:
+- **Open-source and extensible**  
+  Fully open-source and designed to be easy to customize, extend, and adapt to
+  different use cases.
 
-        Music add-on — Play audio in Discord voice channels.
-
-    Integrated add-ons:
-
-        GTFS add-on — Transport data & schedules for integration with transport services.
-
-✅ Fully open-source — The project is free and open-source, available for contribution and modification.
 
 ---
+
+## 🛠 Basic requirements
+
+> Before running Extencord, make sure you have:
+
+- Python 3.11+
+- Discord bot created in the [Discord Developer Portal](https://discord.com/developers/applications)
+- [MongoDB](https://www.mongodb.com) account
+- Java (only needed for some modules, e.g. music playback)
+
+
+---
+
