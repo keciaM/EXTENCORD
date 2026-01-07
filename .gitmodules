@@ -1,8 +1,8 @@
 [submodule "bot-core"]
-	path = bot-core
+	path = bot_core
 	url = https://github.com/keciaM/bot-core.git
 [submodule "gtfs-addon"]
-	path = gtfs-addon
+	path = gtfs_addon
 	url = https://github.com/keciaM/pyrkowy-gtfs-rt.git
 [submodule "music_addon"]
 	path = music_addon
